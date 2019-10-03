@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+      	<meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1">
+      	<!-- BOOTSTRAP 4 CDN START -->
+      	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<!-- BOOTSTRAP 4 CDN END -->
+        <title>About Me</title>
+      </head>
+      <body>
+        <h1 class="container-fluid">Ryce, Jessie - 
+        	<small class="text-muted">Software Development Tools and Methods</small>
+        </h1>
+        <div class="card bg-light text-dark">
+	        <p class="card-body">Three fun facts about me are:
+	        	(1) I'm from California,
+	        	(2) I run marathons, and 
+	        	(3) my favorite ice cream flavor is cookies and cream.
+
+	        	I am studying Computer Science because I eventually want to be able to help protect our country with a federal law enforcement agency through the use of technology.
+	        </p>
+        </div>
+
+        <h2>My Professional Profile</h2>
+        <a class="btn btn-outline-secondary" href="https://github.com/jessieryce" target="_blank">My Github</a>
+        <br><br>
+        <img src="headshot.JPG" alt="A photo of me" style="width:700px;height:470px;border-radius: 50%;">
+
+        <h3>My Favorite Projects</h3>
+        <table class="table" style="width:100%">
+		 	<thead>
+			  <tr>
+			  	<th scope="col">#</th>
+			    <th scope="col">Name of the Project</th>
+			    <th scope="col">Technologies Used</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+			  	<td scope="row">1</td>
+			    <td>Employee Payroll</td>
+			    <td>C++</td>
+			  </tr>
+			  <tr>
+			  	<td scope="row">2</td>
+			    <td>Student Services Outcome Assessment Initiative</td>
+			    <td>Google Apps Script</td>
+			  </tr>
+			  <tr>
+			  	<td scope="row">3</td>
+			    <td>Personal Website</td>
+			    <td>HTML, CSS, Javascript</td>
+			  </tr>
+		 	</tbody>
+		</table>
+
+		<div class="row">
+			<div class="col">
+				<div class="container">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <button type="button" class="btn card bg-light text-dark col" data-toggle="collapse" data-target="#collapse1">Countries Travelled</button>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					      <ul class="list-group">
+					        <li class="list-group-item">Mexico</li>
+					        <li class="list-group-item">Canada</li>
+					        <li class="list-group-item">Malawi</li>
+					      </ul>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="container">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <button type="button" class="btn card bg-light text-dark col" data-toggle="collapse" data-target="#collapse2">My Interests</button>
+					    </div>
+					    <div id="collapse2" class="panel-collapse collapse">
+					      <ul class="list-group">
+					        <li class="list-group-item">Running</li>
+					        <li class="list-group-item">Skiing</li>
+					        <li class="list-group-item">Travelling</li>
+					      </ul>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+		  Click here!
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">That's all folks!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        Thank you for visiting my website.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      </body>
+    </html>
